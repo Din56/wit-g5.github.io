@@ -1,0 +1,52 @@
+.hello {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    margin: 20px;
+    text-align: center;
+} .p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+} .background {
+    background-color: rgba(163, 210, 210, 0.437);
+    cursor: cell;
+} .button {
+    background-color: cornflowerblue;
+    border: none;
+    border-radius: 15px;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 10px;
+    cursor: pointer;
+    transition-property: all 0.3s;
+} .head {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 21px;
+    margin: 15px;
+    background-color: rgba(163, 210, 210, 0.437);
+    border: black;
+} .button2 {
+    background-color: cornflowerblue;
+    border: none;
+    border-radius: 15px;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 10px;
+    cursor: pointer;
+    transition-property: all 0.3s;
+} .button:hover {
+    transform: translateY(-10px);
+} .button2:hover {
+    transform: translateY(-10px);
+} .button3 {
+    background-color: cornflowerblue;
+    border: none;
+    border-radius: 15px;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 10px;
+    cursor: cell;
+    transition-property: all 0.3s;
+} .button3:hover {
+    transform: translateY(-200px);
+    transform: translateX(500px);
+}
