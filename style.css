@@ -1,0 +1,16 @@
+.head {
+    font-family: Ubuntu, Kanit;
+    text-align: center;
+    font-size: 24px;
+}
+.name {
+    font-family: Ubuntu, Kanit;
+    position: relative;
+    font-size: 17px;
+}
+.name #by {
+    transform: translate(3%, 300%);
+}
+.name #name {
+    transform: translate(10%, 100%);
+}
