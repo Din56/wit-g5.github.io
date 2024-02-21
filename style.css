@@ -50,3 +50,49 @@ button::before {
     position: absolute;
     transform: translate(50%, 30%);
 }
+body {
+    background-color: #222;
+    overflow: hidden;
+  }
+  
+  @keyframes gradientAnimation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    background: linear-gradient(45deg, #b9def7, #e9c0f8);
+    background-size: 200% 200%;
+    animation: gradientAnimation 4s ease infinite;
+  }
+  body {
+    background-color: #222;
+    overflow: hidden;
+    margin: 0;
+  }
+  
+  @keyframes gradientAnimation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }  
