@@ -1,0 +1,32 @@
+.head {
+    font-family: Ubuntu, Kanit;
+    text-align: center;
+    font-size: 26px;
+    background-color: azure;
+}
+.name {
+    font-family: Ubuntu, Kanit;
+    position: relative;
+    font-size: 19px;
+}
+.name #by {
+    transform: translate(3%, 300%);
+}
+.name #name {
+    transform: translate(10%, 100%);
+    
+}
+button {
+    font-family: Ubuntu, Kanit;
+    transition: all 0.7s;
+    right: 10%;
+    bottom: 10%;
+    position: absolute;
+}
+button:hover {
+    padding-inline: 10%;
+}
+.text {
+    font-family: Ubuntu, Kanit;
+    font-size: 21px;
+}

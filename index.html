@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>g5</title>
+<link rel="stylesheet" type="text/css" href="style.css" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lemon&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+<script>
+function changePage(pageNumber) {
+    var content1 = document.getElementById('content1');
+    var content2 = document.getElementById('content2');
+    var content3 = document.getElementById('content3');
+    var content4 = document.getElementById('content4');
+    var content5 = document.getElementById('content5');
+    var content6 = document.getElementById('content6');
+    var content7 = document.getElementById('content7');
+    var content8 = document.getElementById('content8');
+    var content9 = document.getElementById('content9');
+    var button = document.getElementById('button');
+
+    if (pageNumber === 1) {
+        content1.style.display = 'block';
+        content2.style.display = 'none';
+        content9.style.display = 'none';
+        button.setAttribute('onclick', 'changePage(2)');
+    } else if (pageNumber === 2) {
+        content1.style.display = 'none';
+        content2.style.display = 'block';
+        button.setAttribute('onclick', 'changePage(3)');
+    } else if (pageNumber === 3) {
+        content2.style.display = 'none';
+        content3.style.display = 'block';
+        button.setAttribute('onclick', 'changePage(4)');
+    } else if (pageNumber === 4) {
+        content3.style.display = 'none';
+        content4.style.display = 'block';
+        button.setAttribute('onclick', 'changePage(5)');
+    } else if (pageNumber === 5) {
+        content4.style.display = 'none';
+        content5.style.display = 'block';
+        button.setAttribute('onclick', 'changePage(6)');
+    } else if (pageNumber === 6) {
+        content5.style.display = 'none';
+        content6.style.display = 'block';
+        button.setAttribute('onclick', 'changePage(7)');
+    } else if (pageNumber === 7) {
+        content6.style.display = 'none';
+        content7.style.display = 'block';
+        button.setAttribute('onclick', 'changePage(8)');
+    } else if (pageNumber === 8) {
+        content7.style.display = 'none';
+        content8.style.display = 'block';
+        button.setAttribute('onclick', 'changePage(9)');
+    } else if (pageNumber === 9) {
+        content8.style.display = 'none';
+        content9.style.display = 'block';
+        button.setAttribute('onclick', 'changePage(1)');
+    }
+}
+</script>
+</head>
+<body>
+
+<div id="content1">
+    <head><div class="head"><b>G5</b> การศึกษาชนิดของน้ําที่มีผลต่อการเจริญเติบโตของถั่วงอก</div></head>
+    <div class="name">
+        <div id="by"><b>จัดทําโดย</b></div> <br> 
+        <div id="name">1. เด็กชาย ปณิธาน ตระกูลรัตนมัจฉา เลขที่ 3 &nbsp;&nbsp;&nbsp;ม.2.7<br>2. เด็กชาย พสิษฐ์&nbsp;&nbsp;&nbsp; สทุธิเจริญศักดิ์ &nbsp;&nbsp;เลขที่ 9 &nbsp;&nbsp;&nbsp;ม.2.7<br>3. เด็กชาย จิรัฎฐ์ &nbsp;&nbsp;&nbsp;&nbsp;เนาว์ชมภู &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;เลขที่ 31 &nbsp;ม.2.7</div>
+        <br><br><br><br><br><br><br>
+    </div>
+</div>
+
+<div id="content2" style="display:none;">
+    <header class="head">1. ที่มาและความสําคัญของโครงงาน</header>
+    <body class="text">
+        <br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;เหตุผลที่เลือกทําโครงงานนี้เพราะต้องการศึกษาว่าเราสามารถนําน้ําต่างๆมาใช้แทนน้ําเปล่าได้หรือไม่ เพื่อพัฒนาเทคนิคการเกษตร ปัญหาในการทดลองคืองบประมาณในการซื้อน้ําชนิดต่างๆ<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ขอบเขตการทําโครงงานครั้งนี้คือการนํานํา้ชนิดต่างๆมาปลูกต้นถั่วงอกทําให้เกิดประโยชน์อย่างเหมาะสมกับต้นถั่วงอก ประโยชน์ที่คาดว่าจะได้รับคือ สามารถนํานํ้าชนิดอื่นมาปลูกถั่วงอกแล้วทําให้ถั่วงอก เจริญเติบโตได้ดีที่สุด
+</div>
+
+<div id="content3" style="display:none;">
+    <header class="head">2. วัตถุประสงค์ของการทําโครงงาน</header>
+    <body class="text4and23">
+        <br><br>
+        1) เพื่อศึกษาน้ําชนิดต่างๆที่มีผลต่อการเจริญเติบโตของพืช <br>2) เพื่อให้เราสามารถเลือกน้ําในการปลูกได้ดีที่สุด<br> 3) เพื่อนําไปศึกษาต่อในพืชชนิดอื่น
+
+</div>
+
+<div id="content4" style="display:none;">
+    <header class="head">3. สมมติฐานของการศึกษา</header>
+    <body class="text">
+        <br><br>
+        <b>ถ้า</b> ชนิดของน้ํามีผลต่อการเจริญเติบโตของต้นถั่วงอก<b>แล้ว</b>ทําให้ต้นถั่วงอกเจริญเติบโตได้แตกต่างกัน <b>ดังนั้น</b>น้ําเปล่าจะทําให้ต้นถั่วงอกเจริญเติบโตได้ดีที่สุด
+
+</div>
+
+<div id="content5" style="display:none;">
+    <header class="head">4. ตัวแปรที่ศึกษา (เฉพาะโครงงานประเภททดลอง)</header>
+    <body class="text">
+        <br><br>
+        <b>ตัวแปรต้น:</b> น้ําชนิดต่างๆ ( น้ําเปล่า, น้ําเกลือ, น้ําโค้ก, สปอนเซอร์, เฮบลูบอย ) <br><b>ตัวแปรตาม:</b> การเจริญเติบโตของถั่วงอก
+        <br><b>ตัวแปรควบคุม:</b> สถานที่, เวลา, ชนิดของถั่วงอก, ปริมาณของน้ําในแต่ละครั้ง, ชนิดของดิน
+</div>
+
+<div id="content6" style="display:none;">
+    <header class="head">5. นิยามศัพท์เฉพาะ/ นิยามเชิงปฏิบัติการ</header>
+    <body class="text4and23">
+        <br><br>
+        <b>ชนิดของน้ํา</b> หมายถึง ชนิดของน้ําต่างๆที่กําหนดไว้
+        <br><b>การเจริญเติบโต</b> หมายถึง การเพิ่มความสูง จํานวนใบ และสีของลําต้น
+</div>
+
+<div id="content7" style="display:none;">
+    <header class="head">6. วิธีดําเนินการ</header>
+    <body class="text4and23">
+        <br><br>
+        <b>6.1 วัสดุ อุปกรณ์ สารเคมี ที่ใช้ในการทดลอง</b>
+        <br>1) กระถาง
+        <br>2) ดิน
+        <br>3) เมล็ดถั่วเขียว
+        <br>4) น้ําชนิดต่างๆ ( น้ําเปล่า, น้ําเกลือ, น้ําโค้ก, สปอนเซอร์, เฮบลูบอย )
+        <br><br><b>6.2 วิธีการทดลอง</b>
+        <br>1) นําดินใส่กระถาง
+        <br>2) นําเมล็ดถั่วเขียวมาปลูก
+        <br>3) ใช้น้ําชนิดต่างๆในการรดวันละ 2 ครั้งเป็นเวลา 5 วัน <br>4) บันทึกผลการทดลอง
+        <br><br><b>6.3 การวิเคราะห์ข้อมูล</b>
+        <br>
+        <table border="1" >
+            <tr>
+                <th>&nbsp;&nbsp;&nbsp;วันที่/น้ํา&nbsp;&nbsp;&nbsp;</th>
+                <th>&nbsp;&nbsp;&nbsp;น้ําเปล่า&nbsp;&nbsp;&nbsp;</th>
+                <th>&nbsp;&nbsp;&nbsp;น้ําเกลือ&nbsp;&nbsp;&nbsp;</th>
+                <th>&nbsp;&nbsp;&nbsp;น้ําโค้ก&nbsp;&nbsp;&nbsp;</th>
+                <th>&nbsp;&nbsp;&nbsp;สปอนเซอร์&nbsp;&nbsp;&nbsp;</th>
+                <th>&nbsp;&nbsp;&nbsp;เฮบลูบอย&nbsp;&nbsp;&nbsp;</th>
+            </tr>
+            <tr>
+                <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+</div>
+
+<div id="content8" style="display:none;">
+    <header class="head">7. ประโยชน์/ผลที่คาดว่าจะได้รับ</header>
+    <body class="text4and23">
+        <br><br>
+        ผลที่คาดว่าจะได้รับ คือ การนําน้ําชนิดอื่นๆนอกจากน้ําเปล่ามารดถั่วงอก เพื่อทําให้ต้นถั่วงอก เจริญเติบโตได้ดีที่สุดและทําไปปรับใช้กับพืชชนิดอื่น
+</div>
+
+<div id="content9" style="display:none;">
+    <header class="head">8. บรรณานุกรม</header>
+    <body class="text4and23">
+        <br><br>
+        <div>
+            <b>https://www.sgethai.com/article/ถั่วงอก-วิธีปลูกถั่วงอก%2F</b> <br>(รู้ประโยชน์ ถั่วงอก พร้อมบอก 7 วิธีเพาะถั่วงอกแบบง่าย ๆ - SGEThai)
+        </div>
+</div>
+
+<button id="button" onclick="changePage(2)">&nbsp;&nbsp;หน้าต่อไป&nbsp;&nbsp;</button>
+
+</body>
+</html>
