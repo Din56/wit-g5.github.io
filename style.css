@@ -77,7 +77,7 @@ body {
     z-index: -1;
     background: linear-gradient(45deg, #b9def7, #e9c0f8);
     background-size: 200% 200%;
-    animation: gradientAnimation 4s ease infinite;
+    animation: gradientAnimation 3s ease infinite;
   }
   body {
     background-color: #222;
